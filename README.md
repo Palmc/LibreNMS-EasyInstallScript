@@ -7,7 +7,6 @@ InstallLibreNMS.sh is a script that automates the installation of LibreNMS with 
 **Install instructions**
 ```
 wget -O InstallLibreNMS.sh https://raw.github.com/Palmc/LibreNMS-EasyInstallScript/master/InstallLibreNMS.sh
-
 ```
 Run
 ```

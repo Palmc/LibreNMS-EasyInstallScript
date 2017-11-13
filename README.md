@@ -1,4 +1,4 @@
-# LibreNMS-EasyInstallScript
+# [LibreNMS](https://librenms.org)-EasyInstallScript
 
 Scripts to make life easier
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "############################################"
-echo "######BEGIN CONFIGURATION FILE      ########"
+echo "######  BEGIN CONFIGURATION FILE    ########"
 echo "############################################"
 echo " "
 echo " "
@@ -48,7 +48,7 @@ mysql -u root -p$db_pass -e "$setupdb"
 
 sed -i '/\[mysqld]/a \
 \
-## Añadido para la configuración de LibreNMS \
+## Added for the LibreNMS configuration \
 innodb_file_per_table=1 \
 sql-mode="" \
 lower_case_table_names=0 \

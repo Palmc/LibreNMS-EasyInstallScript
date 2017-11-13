@@ -5,7 +5,7 @@
 #Based on https://docs.librenms.org/#Installation/Installation-Ubuntu-1604-Apache/
 # Author Pablo De la Morena
 
-if [ "x$(id -u)" != 'x0' ]; then
+if [ "$(id -u)" != '0' ]; then
 	echo 'Error: this script can only be executed by root'
 	exit 1
 fi
@@ -111,7 +111,9 @@ setfacl -R -m g::rwx /opt/librenms/rrd /opt/librenms/logs
 
 ip=$(hostname -I|cut -f1 -d ' ')
 sleep 1
-echo "#################FINISHED###########################"
+echo "############################################"
+echo "###############  FINISHED  #################"
+echo "############################################"
 echo " "
 echo "Now you must continue here: http://$ip/install.php"
 echo "Remenber that these are your credentials: "

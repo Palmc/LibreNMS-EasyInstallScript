@@ -1,7 +1,7 @@
 # myscripts
 Scripts to make life easier
 
-InstallLibreNMS.sh is a script that automates the installation of LibreNMS whith Apache, tested on Ubuntu 16.04 and Debian 9
+InstallLibreNMS.sh is a script that automates the installation of LibreNMS with Apache, tested on Ubuntu 16.04 and Debian 9
 
 NOTE
 

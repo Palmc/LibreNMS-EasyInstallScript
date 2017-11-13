@@ -105,7 +105,7 @@ sleep 1
 echo "#################FINISHED###########################"
 echo " "
 echo "Now you must continue here: http://$ip/install.php"
-echo "Remenbar that these are your credentials: "
+echo "Remenber that these are your credentials: "
 echo " "
 echo " DB User: librenms "
 echo " DB Password: $db_pass  "

@@ -139,11 +139,9 @@ setfacl -R -m g::rwx /opt/librenms/rrd /opt/librenms/logs
 ip=$(hostname -I|cut -f1 -d ' ')
 sleep 1
 echo "#################TERMINADO###########################"
+echo " "
 echo "Ahora puedes seguir con la configuración aquí: http://$ip/install.php"
 echo "Recuerda que estas son tus credenciales: "
-#echo " "
-#echo "Usuario panel web:  "
-#echo "Password panel web: "
 echo " "
 echo " DB User: librenms "
 echo " DB Password: $db_pass  "

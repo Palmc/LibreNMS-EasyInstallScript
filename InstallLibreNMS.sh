@@ -1,16 +1,19 @@
 #!/bin/bash
-
-echo "############################################"
-echo "######  BEGIN CONFIGURATION FILE    ########"
-echo "############################################"
-echo " "
-echo " "
+#Script to install LibreNMS with Apache
+#Supported OS: Ubuntu 16.04, Debian 9
+#
+#Based on https://docs.librenms.org/#Installation/Installation-Ubuntu-1604-Apache/
+# Author Pablo De la Morena
 
 if [ "x$(id -u)" != 'x0' ]; then
 	echo 'Error: this script can only be executed by root'
 	exit 1
 fi
-
+echo "############################################"
+echo "######  BEGIN CONFIGURATION FILE    ########"
+echo "############################################"
+echo " "
+echo " "
 echo "¿Change hostname? y/n"
 read -e respuesta
 if [ "$respuesta" == y ] ; then

@@ -5,6 +5,12 @@ echo "######  BEGIN CONFIGURATION FILE    ########"
 echo "############################################"
 echo " "
 echo " "
+
+if [ "x$(id -u)" != 'x0' ]; then
+	echo 'Error: this script can only be executed by root'
+	exit 1
+fi
+
 echo "¿Change hostname? y/n"
 read -e respuesta
 if [ "$respuesta" == y ] ; then

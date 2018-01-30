@@ -66,8 +66,8 @@ lower_case_table_names=0 \
 
 systemctl restart mysql
 
-sed -i 's|;date.timezone =|date.timezone = Europe/Madrid|g' /etc/php/7.0/fpm/php.ini
-sed -i 's|;date.timezone =|date.timezone = Europe/Madrid|g' /etc/php/7.0/cli/php.ini
+sed -i 's|;date.timezone =|date.timezone = Etc/UTC|g' /etc/php/7.0/fpm/php.ini
+sed -i 's|;date.timezone =|date.timezone = Etc/UTC|g' /etc/php/7.0/cli/php.ini
 
 phpenmod mcrypt
 systemctl restart php7.0-fpm

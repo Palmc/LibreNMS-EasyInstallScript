@@ -2,7 +2,7 @@
 #Script to install LibreNMS with NGINX
 #Supported OS: Ubuntu 16.04, Debian 9
 #
-#Based on https://docs.librenms.org/#Installation/Installation-Ubuntu-1604-Apache/
+#Based on https://docs.librenms.org/#Installation/Installation-Ubuntu-1604-Nginx/
 # Author Pablo De la Morena
 
 if [ "$(id -u)" != '0' ]; then

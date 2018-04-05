@@ -11,11 +11,11 @@ wget -O LibreNMSNginx.bash https://raw.github.com/Palmc/LibreNMS-EasyInstallScri
 ```
 Run
 ```
-chmod +x InstallLibreNMS.sh
-./InstallLibreNMS.sh
+chmod +x LibreNMSNginx.bash
+./LibreNMSNginx.bash
 ```
 **NOTE**
 
-The default timezone is Etc/UTC, you must change the timezone to adjust it to your location, the list of supported timezones is here: http://php.net/manual/en/timezones.php
+The default timezone in **/etc/php/7.0/fpm/php.ini** and **/etc/php/7.0/cli/php.ini** is Etc/UTC, you must change the timezone to adjust it to your location, the list of supported timezones is here: http://php.net/manual/en/timezones.php
 
 All credits for the LibreNMS project https://www.librenms.org/

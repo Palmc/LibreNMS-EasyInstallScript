@@ -7,7 +7,7 @@ LibreNMSNginx.bash automates the installation of LibreNMS with NGINX, tested on 
 
 **Install instructions**
 ```
-wget -O InstallLibreNMS.sh https://raw.github.com/Palmc/LibreNMS-EasyInstallScript/master/InstallLibreNMS.bash
+wget -O LibreNMSNginx.bash https://raw.github.com/Palmc/LibreNMS-EasyInstallScript/master/LibreNMSNginx.bash
 ```
 Run
 ```

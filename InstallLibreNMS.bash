@@ -42,7 +42,7 @@ read -e comunidad
 echo "mariadb-server mariadb-server/root_password password $db_pass2" | sudo debconf-set-selections
 echo "mariadb-server mariadb-server/root_password_again password $db_pass2" | sudo debconf-set-selections
 
-apt update && apt install -y apache2 composer fping git graphviz imagemagick libapache2-mod-php7.0 mariadb-client mariadb-server mtr-tiny nmap php7.0-cli php7.0-curl php7.0-gd php7.0-json php7.0-mcrypt php7.0-mysql php7.0-snmp php7.0-xml php7.0-zip python-memcache python-mysqldb rrdtool snmp snmpd whois
+apt update && apt install -y apache2 composer fping git graphviz imagemagick libapache2-mod-php7.0 mariadb-client mariadb-server mtr-tiny nmap php7.0-cli php7.0-curl php7.0-gd php7.0-json php7.0-mcrypt php7.0-mysql php7.0-snmp php7.0-xml php7.0-zip python-memcache python-mysqldb rrdtool snmp snmpd whois acl
 
 useradd librenms -d /opt/librenms -M -r
 usermod -a -G librenms www-data
